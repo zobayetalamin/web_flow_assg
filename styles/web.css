@@ -1,0 +1,82 @@
+/* raleway font */
+
+.raleway-Raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* inter font */
+.inter-Inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+/* shared styles */
+.text-primary{
+    color: #4E47FF;
+
+}
+.dark-1{
+    color: #252432;
+}
+.dark-2{
+    color: #252432;
+}
+.white-1{
+    color: #FFFFFF;
+}
+    /* nav styles */
+    
+nav{ 
+
+    
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.logo-text{
+    color: #4E47FF;
+    font-weight: bold;
+    font-size: 34px;
+    font-family: "Inter"
+}
+.btn-sign{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    width: 132px;
+    height: 48px;
+    padding: 3px 12px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.banner-content{
+    text-align: center;
+    margin-top: 158px;
+
+}
+.dark-cool-text{
+    font-family: "Raleway";
+    font-weight: "bold";
+    font-size: 65px;
+    color: #252432;
+}
+.btn-stay{
+    text-align: center;
+
+    width: 102px;
+    height: 24px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+
+}
+a{
+    text-decoration: none;
+}
