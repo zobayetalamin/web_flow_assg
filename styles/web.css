@@ -110,7 +110,7 @@ nav{
     border-radius: 48px;
 }
 
-
+/* 3rd */
 
 .productive-user{
     text-align: center;
@@ -146,4 +146,56 @@ nav{
     font-weight: bold;
     font-size: 80px;
     font-family:"Inter" ;
+}
+
+/* 4th  */
+
+.what-our{
+    margin: 200px 0px;
+}
+.wat{
+    display: flex;
+    border: 0px solid #F2EDED ;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wat-text{
+    width: 366px;
+    height: 243px;
+    padding: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+.what-say{
+    text-align: center;
+    color: #252432;
+    font-weight: bold;
+    font-size: 42px;
+    font-family: "Raleway";
+}
+.love-lav{
+    font-family: "Raleway";
+    margin-top: 40px;
+}
+.avatar1{
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+    align-items: center;
+}
+.avatar-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+}
+.reviewer{
+    color: #757575;
+    font-size: 22px;
+    font-family: "Inter";
+}
+.date-san{
+    font-family: "Inter";
+    color: #B3B3B3;
+    margin-top: -20px;
 }
