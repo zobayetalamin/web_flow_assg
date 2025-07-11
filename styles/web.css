@@ -1,18 +1,17 @@
 /* raleway font */
 
 .raleway-Raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+font-family: "Raleway", sans-serif;
+font-optical-sizing: auto;
+
+font-style: normal;
 }
 
 /* inter font */
 .inter-Inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
-  font-style: normal;
+font-family: "Inter", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
 }
 /* shared styles */
 .text-primary{
@@ -33,17 +32,17 @@
 nav{ 
     background-image: url(../images/Hero-bg.png);
     height: 698px;
-    margin-top: 66px;
 
 }
 .nav-title{
     display: flex;
+    padding-top: 40px;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
 }
 
-.logo-text{
+.logo{
     color: #4E47FF;
     font-weight: bold;
     font-size: 34px;
@@ -57,6 +56,12 @@ nav{
     padding: 3px 12px;
     border-radius: 10px;
     gap: 10px;
+}
+.btn-sign:hover{
+    background-color: rgb(173, 20, 182);
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .banner{
     text-align: center;
@@ -76,6 +81,12 @@ nav{
     border-radius: 10px;
     background-color: #4E47FF;
     color: #FFFFFF;
+}
+.btn-stay:hover{
+    background-color: rgb(173, 20, 182);
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .see-it{
@@ -103,6 +114,12 @@ nav{
     border-radius: 10px;
     background-color: #4E47FF;
     color: #FFFFFF;
+}
+.btn-launch:hover{
+    background-color: rgb(173, 20, 182);
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .img-wc-mini{
     width: 403px;
@@ -135,9 +152,9 @@ nav{
     font-family: "Raleway";
 }
 .blue-count-p{
-    color: rgba(0, 0, 0, 0.5);
+    color: #878585;
     font-size: 20px;
-    margin-top: -45px;
+    margin-top: 40px;
     font-family: "Inter";
 }
 
@@ -168,21 +185,23 @@ nav{
     border-radius: 10px;
 }
 .what-say{
+    font-family: "Raleway";
     text-align: center;
     color: #252432;
     font-weight: bold;
     font-size: 42px;
-    font-family: "Raleway";
 }
 .love-lav{
     font-family: "Raleway";
     margin-top: 40px;
 }
 .avatar1{
+    align-items: center;
+    margin-top: 40px;
     display: flex;
     gap: 12px;
-    margin-top: 40px;
-    align-items: center;
+    
+    
 }
 .avatar-img{
     width: 40px;
@@ -199,3 +218,140 @@ nav{
     color: #B3B3B3;
     margin-top: -20px;
 }
+/* 5th section png */
+
+.rdy-h{
+    font-family: "Raleway";
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.rdy-p{
+    font-family: "Inter";
+    font-size: 16px;
+    color: #757575;
+
+}
+.btn-get{
+    font-size: 16px;
+    font-family: "Raleway";
+    background-color: #4E47FF;
+    width: 185px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-get:hover{
+    background-color: rgb(214, 34, 181);
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img-fifth{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+    margin-top: 20px;
+}
+.rdy-focus{
+    text-align: center;
+    margin: 200px 240px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 50px 51px;
+}
+/* form section */
+.lets{
+    gap: 100px;
+    display: flex;
+    padding: 130px 230px;
+    
+    
+}
+
+.lets-text{
+    width: 50%;
+    align-items: center;
+    display: flex;
+}
+
+.lets input[type="text"], .lets input[type="email"], .lets textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: #f1f0f0;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-family: "Inter";
+}
+
+.btn-submit{
+    background-color:  #4E47FF;
+    padding: 15px 240px;
+    width: 107%;
+    border-radius: 10px;
+    text-align: center;
+    height: 54px;
+    font-size: 18px;
+    margin-bottom: 24px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-submit:hover{
+    background-color: rgb(173, 20, 182);
+    color: #000000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.lets-h{ 
+    font-family: "Raleway";
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+    
+
+}
+.form-email{
+    font-family: "Inter";
+    font-weight: medium;
+    font-size: 18px;
+}
+.txtt{
+    font-family: "Inter";
+}
+/* footer */
+.last{
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.logo-h{
+    text-align: center;
+    font-family: "Inter";
+    font-size: 100px;
+    font-weight: 900px;
+    color: #4E47FF;
+
+}
+
+.last-p{
+    color: #4d4c63;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400px;
+}
+.ul-last , a{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    color: #8987A1;
+    font-size: 16px;
+    font-family: "Inter";
+    list-style: none;
+    text-decoration: none;
+}
+
+
