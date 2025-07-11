@@ -109,43 +109,41 @@ nav{
     height: 328px;
     border-radius: 48px;
 }
+
+
+
 .productive-user{
     text-align: center;
-    margin: 20px 306px;
-    background-color: #d5d4f8;
-    border-radius: 24px;
-    
-    
-    
-
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 0px 306px;
+    border-radius: 30px;
 }
-.thou{
-    padding: 80px 50px;
 
-}
 .count{
     display: flex;
-    align-content: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 158px;
 }
-.thou-title{
-    font-family: "Raleway";
-    color: #252432;
-    font-size: 38px;
-    font-weight: bold;
+
+.thou{
+    padding: 80px 50px;
 }
+.thou-title{
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+    font-family: "Raleway";
+}
+.blue-count-p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin-top: -45px;
+    font-family: "Inter";
+}
+
 .blue-count{
     color: #4E47FF;
     font-weight: bold;
     font-size: 80px;
-    font-family: "Inter";
+    font-family:"Inter" ;
 }
-.blue-count-p{
-    color: #4d4c63;
-    font-size: 20px;
-    font-family: "Inter";
-    width: 160px;
-    height: 24px;
-}
-
